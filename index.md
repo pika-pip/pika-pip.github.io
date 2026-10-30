@@ -4,7 +4,9 @@ layout: default
 
 ## Introduction
 
-<img src="assets/images/me.jpg" alt="Photo" hspace="20" width="30%" align="right"/> Hey there, let's try adding some stuff to this description.  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<img src="assets/images/me.jpg" alt="Photo" hspace="20" width="30%" align="right"/> Hei, my name is Aiswarya but I go by Pip. I'm a linguistics student at the University of Helsinki. I am currently pursuing an MA in English Studies. My area of interest is language technology and speech synthesis, focusing on how we can use emerging technology to increase accessibility for people with text-processing disabilities such as dyslexia. Additionally, another field of personal academic interest is formal semantics and syntax, and examining formal theories of meaning using data we have from LLMs. 
+
+In my spare time I love swimming, solving nonogram puzzles by hand, and game nights. Opiskelen suomea vähän vähältä - so if you have a favourite Finnish song, send it my way; I'd love to hear it! Hauska tavata! 
 
 ## Find me on
 
