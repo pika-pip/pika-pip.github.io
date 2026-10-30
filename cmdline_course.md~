@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+## Module 1
+The first module was a general introduction to shell commands. I installed Ubuntu for Windows to get used to using linux commands even on my PC operating system. We learnt general commands like pwd, whoami, clear, and man. It was a great introduction to using a computer without the GUI we are all used to nowadays.
+
+### Example code from module 1: 
+`sort filename.txt | uniq | wc -l`   
+This is a code that counts the number of unique lines in a textfile.  
+First, `sort` sorts the file alphabetically, which is necessary because `uniq` only filters adjacently matching lines.  
+The code then it takes the output of sorting and filters with `uniq`.  
+Then the code takes that output and counts the numbers of lines using `wc` with the `-l` tag to indicate that it is the number of lines that we want to count.  
+This code is a basic introduction to different shell commands and how they can be used to analyse a file, and a basic introduction to piping.
+
+## week 2
+Module 2 was by far the hardest module of the course. We learnt about regex, which was tough even with previous experience using them. The module covered using regex for grep and egrep in order to filter and analyse data from text files. We learnt about the various steps involved in processing textfiles using command line tools. These tools were all connected to each other using pipes. Finally, the module also covered how to examine file details and change things like the file encoding type used in the system. These weeks showed me that even if a command has only one line, that line can have multiple steps and how each step builds onto the next one. A mistake at a previous step can drastically alter the intended results. 
+
+### example code from week 2:
+
+`sed 's/^$/#/' life_of_bee.txt | tr '\n' ' ' | sed -E 's/([.?!]) ([A-Z])/\1# \2/g' | sed -E 's/([IVX][.])#/\1/g' | tr '#' '\n' | sed 's/^ *//' | sed 's/ *$//' | grep -v "^$" > output.file`
+
+
+| part          | explanation                                                                                                                                                             |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `sed 's/^$/#/' life_of_bee.txt`   | take file and replace empty line with #   |
+| `tr '\n' ' '`   | replace newline characters with space   |
+| `sed -E 's/([.?!]) ([A-Z])/\1# \2/g'`   | take punctuation !.? followed by a space and then a capital letter and change to the format of punctuation, #, space, and then the letter<br>do that for the whole file   |
+| `sed -E 's/([IVX][.])#/\1/g'`   | find all instances of roman numerals used for numbers and remove the period-mark associated with them<br>do that for the whole file   |
+| `tr '#' '\n'`   | replace # with newline chars   |
+| `sed 's/^ *//'`   | remove empty spaces at start of line   |
+| `sed 's/ *$//'`   | remove empty spaces at end of line   |
+| `grep -v "^$"`   | select lines that are empty <br>-v flag to show that we want the inverse of the empty lines   |
+| `> output.file`   | save output into output.file   |
+
+
+<img src="assets/images/code.png" alt="how the code is built part by part in the command line" hspace="20" width="30%" align="left"/> In the terminal, this is what building the whole process step by step would look like. We can do one part, check that the output is as required before using the up arrow to go back to the previous command and adding the next step.
