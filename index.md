@@ -14,9 +14,11 @@ In my spare time I love swimming, solving nonogram puzzles by hand, and game nig
 
 [LinkedIn](https://www.linkedin.com/in/aiswaryasudhir), [GitHub](https://github.com/pika-pip)
 
-## Contact
+## Contact and CV
 
-My email address is of the form first_name.z.last_name@helsinki.fi. 
+My email address is of the form first_name.z.last_name@helsinki.fi.
+
+[Here](https://www.overleaf.com/project/6ae209517283f0b0abfca760/share#f89a5974e57a4a8d20819b7299c1bf1920dd450157276e2c) is my current CV. P.S. you can change the view to 'PDF-only' to hide the latex code!
 
 ## Some courses I've taken
 
