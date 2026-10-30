@@ -10,7 +10,7 @@ In my spare time I love swimming, solving nonogram puzzles by hand, and game nig
 
 ## Find me on
 
-[LinkedIn](https://fi.linkedin.com/mouse-mousekewitz), [GitHub](https://github.com/mokewitz)
+[LinkedIn](https://www.linkedin.com/in/aiswaryasudhir), [GitHub](https://github.com/pika-pip)
 
 ## Contact
 
@@ -18,7 +18,7 @@ My email address is of the form first_name.last_name@helsinki.fi.
 
 ## Courses I've Taken
 
-[Enjoying Cheese I](https://courses.helsinki.fi/enjoying-cheese-I), fall 2018
+[Enjoying Cheese I](https://www.linkedin.com/in/aiswaryasudhir), fall 2018
 
 [Feline Avoidance](https://courses.helsinki.fi/feline-avoidance), fall 2018
 
