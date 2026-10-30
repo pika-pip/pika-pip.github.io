@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Overall introduction to Command Line Tools for Linguists
-This was a little introduction on using shell commands to navigate our computer, coding, setting up ssh connections, and using git - all through the command line environment. 
+This course was a little introduction on navigating your computer, coding, setting up ssh connections, and using git - all through the command line environment. 
 
 ## Module 1
 The first module was a general introduction to shell commands. I installed Ubuntu for Windows to get used to using linux commands even on my PC operating system. We learnt general commands like pwd, whoami, clear, and man. It was a great introduction to using a computer without the GUI we are all used to nowadays.
